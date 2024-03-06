@@ -1,0 +1,44 @@
+h1 {
+  font-size: 58px;
+}
+
+h2 {
+  font-size: 57px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 25px;
+}
+
+h6 {
+  font-size: 24px;
+}
+
+.btn-text {
+  font-size: 28px;
+}
+
+.mobile-menu {
+  font-size: 45px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.link {
+  font-size: 30px;
+}
+
+a {
+  font-size: 24px;
+}
+/*# sourceMappingURL=variables.css.map */

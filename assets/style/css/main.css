@@ -1,0 +1,958 @@
+h1 {
+  font-size: 58px;
+}
+
+h2 {
+  font-size: 57px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 25px;
+}
+
+h6 {
+  font-size: 24px;
+}
+
+.btn-text {
+  font-size: 28px;
+}
+
+.mobile-menu {
+  font-size: 45px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.link {
+  font-size: 30px;
+}
+
+a {
+  font-size: 24px;
+}
+
+.first-layout-wrapper .main-content .buttons-wrapper .btn, .first-layout-wrapper .main-content .desc, .first-layout-wrapper .main-content .content-title, .about-layout .about-wrapper .header-title p, .about-layout .about-wrapper .header-title h2, .about-layout .about-wrapper .content-area .content-title .row-wrapper .row p {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+footer .footer-2, .first-layout-wrapper .main-content .buttons-wrapper, .first-layout-wrapper, .about-layout .about-wrapper .header-title, .about-layout, .comments-background .text-wrapper, .team-layout .team-layout-wrapper .text-wrapper, .team-layout .team-layout-wrapper .team-card-wrapper .team-card, .team-layout .team-layout-wrapper .team-card-wrapper, .first-layout .contact-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .footer-1 .column-1 .column-1-items, footer .footer-1 .col .col-items a, footer .footer-1 .col .col-items ul, footer .footer-1 .col .col-items, .services .blue .card-service-items, .services .card-service .card-service-items, .about-layout .about-wrapper .content-area .content-title .row-wrapper, .about-layout .about-wrapper .content-area .content-title, .about-layout .about-wrapper, .comments-background .comment-wrapper .comment .comment-content, .comments-background .text-wrapper .texts, .comments-background, .team-layout .team-layout-wrapper .text-wrapper .texts, .team-layout .team-layout-wrapper .team-card-wrapper .team-card .team-card-content, .team-layout .team-layout-wrapper, .contact-layout-header .text-wrapper .texts, .first-layout .contact-layout .contact-layout-wrapper .contact-layout-input .selects-wrapper, .first-layout .contact-layout .contact-layout-wrapper .contact-layout-input .contents .forms, .first-layout .contact-layout .contact-layout-wrapper .contact-layout-input .contents, .first-layout .contact-layout .contact-layout-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: #252B42;
+  font-family: "Montserrat", sans-serif;
+}
+
+.first-layout {
+  background-image: url(/assets/img/background.png);
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .first-layout {
+    width: 100%;
+    height: 120vh;
+  }
+}
+.first-layout .contact-layout .contact-layout-wrapper {
+  justify-content: center;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .first-layout .contact-layout .contact-layout-wrapper {
+    flex-direction: column;
+  }
+}
+.first-layout .contact-layout .contact-layout-wrapper .contact-layout-input {
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+  width: 1052px;
+  height: 644px;
+  background-color: #FFFFFF;
+  display: flex;
+  margin-left: 350px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .first-layout .contact-layout .contact-layout-wrapper .contact-layout-input {
+    flex-direction: column;
+  }
+}
+.first-layout .contact-layout .contact-layout-wrapper .contact-layout-input .media {
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .first-layout .contact-layout .contact-layout-wrapper .contact-layout-input .media {
+    width: 700px;
+    height: 350px;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  .first-layout .contact-layout .contact-layout-wrapper .contact-layout-input {
+    width: 600px;
+    height: 1000px;
+  }
+}
+.first-layout .contact-layout .contact-layout-wrapper .contact-layout-input .contents {
+  padding: 40px 50px;
+  gap: 20px;
+}
+.first-layout .contact-layout .contact-layout-wrapper .contact-layout-input .contents .form-button {
+  background-color: #FFA62B;
+  border-radius: 5px;
+  padding: 15px 40px;
+  color: #FFFFFF;
+  font-weight: 600;
+  text-align: center;
+}
+.first-layout .contact-layout .contact-layout-wrapper .contact-layout-input .contents h2 {
+  font-weight: 600;
+}
+.first-layout .contact-layout .contact-layout-wrapper .contact-layout-input .contents .forms input[type=text], .first-layout .contact-layout .contact-layout-wrapper .contact-layout-input .contents .forms input[type=email] {
+  background-color: #F9F9F9;
+  width: 585px;
+  height: 50px;
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  padding: 11px 490px 11px 21px;
+  font-family: "Montserrat", sans-serif;
+  color: #737373;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .first-layout .contact-layout .contact-layout-wrapper .contact-layout-input .contents .forms input[type=text], .first-layout .contact-layout .contact-layout-wrapper .contact-layout-input .contents .forms input[type=email] {
+    width: 100px;
+  }
+}
+.first-layout .contact-layout .contact-layout-wrapper .contact-layout-input .selects-wrapper select {
+  background-color: #F9F9F9;
+  width: 585px;
+  height: 50px;
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  padding: 11px 490px 11px 21px;
+  font-family: "Montserrat", sans-serif;
+  color: #737373;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .first-layout .contact-layout .contact-layout-wrapper .contact-layout-input .selects-wrapper select {
+    width: 100px;
+  }
+}
+
+.contact-layout-header {
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+  display: flex;
+  gap: 150px;
+}
+@media only screen and (max-width: 575.98px) {
+  .contact-layout-header {
+    flex-direction: column;
+  }
+}
+.contact-layout-header .map {
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .contact-layout-header .map {
+    width: 200px;
+    height: 200px;
+  }
+}
+.contact-layout-header img {
+  width: 414px;
+  height: 169px;
+}
+.contact-layout-header .text-wrapper {
+  padding: 50px 0px;
+}
+.contact-layout-header .text-wrapper .texts {
+  gap: 10px;
+  text-align: left;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .contact-layout-header .text-wrapper .texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.contact-layout-header .text-wrapper .texts h2, .contact-layout-header .text-wrapper .texts p {
+  color: #FFFFFF;
+}
+.contact-layout-header .text-wrapper .texts h2 {
+  font-weight: 600;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .contact-layout-header .text-wrapper .texts h2 {
+    max-width: 400px;
+  }
+}
+.contact-layout-header .text-wrapper .texts p {
+  max-width: 650px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .contact-layout-header .text-wrapper .texts p {
+    max-width: 400px;
+  }
+}
+
+.team-layout .team-layout-wrapper {
+  gap: 50px;
+  padding: 80px 0px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .team-layout .team-layout-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.team-layout .team-layout-wrapper .team-card-wrapper {
+  flex-direction: row;
+  gap: 50px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .team-layout .team-layout-wrapper .team-card-wrapper {
+    flex-direction: column;
+  }
+}
+.team-layout .team-layout-wrapper .team-card-wrapper .team-card {
+  background-color: #FFFFFF;
+  width: 270px;
+  height: 350px;
+}
+.team-layout .team-layout-wrapper .team-card-wrapper .team-card .team-card-content {
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 40px;
+}
+.team-layout .team-layout-wrapper .team-card-wrapper .team-card .team-card-content img {
+  width: 128px;
+  height: 128px;
+}
+.team-layout .team-layout-wrapper .team-card-wrapper .team-card .team-card-content h6 {
+  color: #FFA62B;
+  font-weight: 500;
+}
+.team-layout .team-layout-wrapper .team-card-wrapper .team-card .team-card-content h5 {
+  color: #252B42;
+  font-weight: 700;
+  text-align: center;
+}
+.team-layout .team-layout-wrapper .team-card-wrapper .team-card .team-card-content .desc {
+  color: #737373;
+  text-align: center;
+}
+.team-layout .team-layout-wrapper .text-wrapper {
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .team-layout .team-layout-wrapper .text-wrapper {
+    flex-direction: column;
+    max-width: 300px;
+  }
+}
+.team-layout .team-layout-wrapper .text-wrapper .texts {
+  gap: 10px;
+  text-align: center;
+}
+.team-layout .team-layout-wrapper .text-wrapper .texts h2, .team-layout .team-layout-wrapper .text-wrapper .texts p {
+  color: #FFFFFF;
+}
+.team-layout .team-layout-wrapper .text-wrapper .texts h2 {
+  font-weight: 600;
+}
+.team-layout .team-layout-wrapper .text-wrapper .texts p {
+  max-width: 650px;
+}
+
+.comments-background {
+  background-color: #16697A;
+  width: 100%;
+  height: 678px;
+  gap: 80px;
+  padding: 80px 0px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .comments-background {
+    height: 1700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.comments-background .text-wrapper {
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .comments-background .text-wrapper {
+    max-width: 300px;
+  }
+}
+.comments-background .text-wrapper .texts {
+  gap: 10px;
+  text-align: center;
+}
+.comments-background .text-wrapper .texts h2, .comments-background .text-wrapper .texts p {
+  color: #FFFFFF;
+}
+.comments-background .text-wrapper .texts h2 {
+  font-weight: 600;
+}
+.comments-background .text-wrapper .texts p {
+  max-width: 650px;
+}
+.comments-background .comment-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .comments-background .comment-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.comments-background .comment-wrapper .comment {
+  width: 520px;
+  height: 310px;
+  background-color: #FFFFFF;
+  padding: 30px 60px;
+}
+.comments-background .comment-wrapper .comment .comment-content {
+  gap: 15px;
+}
+.comments-background .comment-wrapper .comment .comment-content img {
+  width: 110px;
+  height: 22px;
+}
+.comments-background .comment-wrapper .comment .comment-content h3 {
+  color: #252B42;
+  font-weight: 700;
+}
+.comments-background .comment-wrapper .comment .comment-content .desc {
+  color: #737373;
+}
+
+.about-layout {
+  padding: 369px 120px 100px 195px;
+}
+.about-layout .about-wrapper {
+  gap: 100px;
+}
+.about-layout .about-wrapper .content-area {
+  display: flex;
+  gap: 120px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .about-layout .about-wrapper .content-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.about-layout .about-wrapper .content-area .content-img {
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .about-layout .about-wrapper .content-area .content-img {
+    width: 333px;
+    height: 442px;
+  }
+}
+.about-layout .about-wrapper .content-area .content-title {
+  gap: 50px;
+  align-items: center;
+}
+.about-layout .about-wrapper .content-area .content-title .row-wrapper {
+  gap: 30px;
+}
+.about-layout .about-wrapper .content-area .content-title .row-wrapper .row {
+  display: flex;
+}
+.about-layout .about-wrapper .content-area .content-title .row-wrapper .row img {
+  width: 48px;
+  height: 48px;
+}
+.about-layout .about-wrapper .content-area .content-title .row-wrapper .row p {
+  max-width: 500px;
+  line-height: 50px;
+}
+.about-layout .about-wrapper .content-area .content-title h2, .about-layout .about-wrapper .content-area .content-title p {
+  text-align: left;
+  max-width: 450px;
+}
+.about-layout .about-wrapper .header-title {
+  flex-direction: column;
+  gap: 15px;
+}
+.about-layout .about-wrapper .header-title h2 {
+  font-weight: 700;
+  max-width: 660px;
+  text-align: center;
+}
+.about-layout .about-wrapper .header-title p {
+  font-weight: 300;
+  min-width: 80px;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .services {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.services .card-service {
+  width: 238px;
+  height: 310px;
+  background-color: #FFFFFF;
+  padding: 35px 40px;
+}
+.services .card-service .card-service-items {
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.services .card-service .card-service-items h5 {
+  color: #252B42;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.services .card-service .card-service-items p {
+  max-width: 154px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #737373;
+  text-align: center;
+}
+.services .card-service .card-service-items .card-button {
+  padding: 10px 30px;
+  border: 3px solid #00A0C1;
+  border-radius: 37px;
+  color: #00A0C1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+.services .card-service .card-service-items img {
+  width: 48px;
+  height: 48px;
+}
+.services .blue {
+  background-color: #00A0C1;
+}
+.services .blue .card-service-items {
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.services .blue .card-service-items h5 {
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.services .blue .card-service-items p {
+  max-width: 154px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-align: center;
+}
+.services .blue .card-service-items .card-button {
+  padding: 10px 30px;
+  border: 3px solid #00A0C1;
+  border-radius: 37px;
+  color: #00A0C1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: #FFFFFF;
+}
+.services .blue .card-service-items img {
+  width: 48px;
+  height: 48px;
+}
+
+.info-wrapper {
+  display: flex;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .info-wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+.info-wrapper .info-col {
+  background-color: #FFFFFF;
+  width: 300px;
+  display: flex;
+}
+.info-wrapper .scnd {
+  display: flex;
+  gap: 15px;
+}
+.info-wrapper .scnd .info-col-items {
+  padding: 20px 20px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 20px 20px;
+}
+.info-wrapper .scnd .info-col-items img {
+  width: 48px;
+  height: 48px;
+}
+.info-wrapper .scnd .info-col-items .info-text h3 {
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.info-wrapper .scnd .info-col-items .info-text h6 {
+  color: #737373;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.info-wrapper .thrth {
+  display: flex;
+  gap: 15px;
+}
+.info-wrapper .thrth .info-col-items {
+  padding: 20px 20px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 20px 20px;
+}
+.info-wrapper .thrth .info-col-items img {
+  width: 48px;
+  height: 48px;
+}
+.info-wrapper .thrth .info-col-items .info-text h3 {
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.info-wrapper .thrth .info-col-items .info-text h6 {
+  color: #737373;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.info-wrapper .frth {
+  display: flex;
+  gap: 15px;
+}
+.info-wrapper .frth .info-col-items {
+  padding: 20px 20px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 20px 20px;
+}
+.info-wrapper .frth .info-col-items img {
+  width: 48px;
+  height: 48px;
+}
+.info-wrapper .frth .info-col-items .info-text h3 {
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.info-wrapper .frth .info-col-items .info-text h6 {
+  color: #737373;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.info-wrapper .frst {
+  display: flex;
+  gap: 15px;
+}
+.info-wrapper .frst .info-col-items {
+  padding: 20px 20px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 20px 20px;
+}
+.info-wrapper .frst .info-col-items img {
+  width: 48px;
+  height: 48px;
+}
+.info-wrapper .frst .info-col-items .info-text h3 {
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.info-wrapper .frst .info-col-items .info-text h6 {
+  color: #737373;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.first-layout-wrapper {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 180px;
+}
+.first-layout-wrapper .main-content {
+  flex-direction: column;
+  gap: 40px;
+}
+.first-layout-wrapper .main-content .content-title {
+  max-width: 709px;
+  text-align: center;
+  font-weight: 800;
+}
+.first-layout-wrapper .main-content .desc {
+  max-width: 539px;
+  font-weight: 300;
+  text-align: center;
+}
+.first-layout-wrapper .main-content .buttons-wrapper {
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .first-layout-wrapper .main-content .buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+}
+.first-layout-wrapper .main-content .buttons-wrapper .btn {
+  padding: 10px 36px;
+  border-radius: 37px;
+  font-weight: 600;
+  font-size: 28px;
+}
+.first-layout-wrapper .main-content .buttons-wrapper .quote {
+  background-color: #FFA62B;
+}
+.first-layout-wrapper .main-content .buttons-wrapper .learn {
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+}
+
+header {
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+  padding: 29px 207px;
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 575.98px) {
+  header {
+    padding: 23px 97px 145px 98px;
+  }
+}
+header .navbar-item-wrapper {
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+header .navbar-list {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  gap: 21px;
+  font-size: 24px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  header .navbar-list {
+    flex-direction: column;
+  }
+}
+header .navbar-list .cart-button {
+  color: #FFFFFF;
+}
+
+.navbar-list-item a {
+  color: #FFFFFF;
+}
+
+footer .footer-1 {
+  background-color: #252B42;
+  padding: 120px 250px;
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  justify-content: center;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  footer .footer-1 {
+    flex-direction: column;
+  }
+}
+footer .footer-1 .col .col-items {
+  gap: 20px;
+}
+footer .footer-1 .col .col-items h3, footer .footer-1 .col .col-items ul {
+  color: #FFFFFF;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  footer .footer-1 .col .col-items h3, footer .footer-1 .col .col-items ul {
+    max-width: 200px;
+  }
+}
+footer .footer-1 .col .col-items ul {
+  font-weight: 500;
+  gap: 15px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  footer .footer-1 .col .col-items ul {
+    max-width: 200px;
+  }
+}
+footer .footer-1 .col .col-items h3 {
+  font-weight: 700;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  footer .footer-1 .col .col-items h3 {
+    max-width: 200px;
+  }
+}
+footer .footer-1 .col .col-items a {
+  font-weight: 500;
+  gap: 15px;
+  color: #FFFFFF;
+  font-size: 16px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  footer .footer-1 .col .col-items a {
+    max-width: 200px;
+  }
+}
+footer .footer-1 .column-1 .column-1-items {
+  gap: 25px;
+}
+footer .footer-1 .column-1 .column-1-items h3 {
+  font-weight: 700;
+  color: #FFFFFF;
+}
+footer .footer-1 .column-1 .column-1-items p {
+  color: #FFFFFF;
+  max-width: 200px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  footer .footer-1 .column-1 .column-1-items p {
+    max-width: 800px;
+  }
+}
+footer .footer-2 {
+  background-color: #384163;
+  width: 100%;
+  height: 76px;
+}
+footer .footer-2 p {
+  color: #BDBDBD;
+  text-align: center;
+}
+
+label {
+  font-weight: 700;
+}
+/*# sourceMappingURL=main.css.map */
